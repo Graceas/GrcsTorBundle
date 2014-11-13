@@ -4,7 +4,7 @@
     "description": "TOR provider",
     "keywords": [
         "tor",
-        "proxy",
+        "proxy"
     ],
     "homepage": "https://github.com/Graceas/GrcsTorBundle",
     "license": "MIT",
