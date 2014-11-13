@@ -1,0 +1,27 @@
+{
+    "name": "grcs/tor-bundle",
+    "type": "library",
+    "description": "TOR provider",
+    "keywords": [
+        "tor",
+        "proxy",
+    ],
+    "homepage": "https://github.com/Graceas/GrcsTorBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Gorelov",
+            "email": "grac.ga@gmail.com",
+            "homepage": "https://github.com/Graceas",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "tor": ">=0.2.4"
+    },
+    "autoload": {
+        "psr-0": { "Grcs\\TorBundle": "" }
+    },
+    "target-dir": "Grcs/TorBundle"
+}

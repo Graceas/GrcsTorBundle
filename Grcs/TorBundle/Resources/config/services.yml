@@ -1,0 +1,8 @@
+parameters:
+    grcstor.class:  Grcs\TorBundle\Lib\Provider
+
+services:
+    grcs.tor:
+        class: %grcstor.class%
+        calls:
+            - [setContainer, [@service_container]]
