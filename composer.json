@@ -17,8 +17,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.2",
-        "tor": ">=0.2.4"
+        "php": ">=5.3.2"
     },
     "autoload": {
         "psr-0": { "Grcs\\TorBundle": "" }
